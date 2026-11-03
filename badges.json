@@ -1,13 +1,166 @@
 {
   "filters": [
     {
-      "id": "uhd",
+      "id": "custom-4k",
       "groupId": "resolution",
-      "name": "4K",
+      "name": "4K Ultra HD",
       "pattern": "(?i)\\b(4k|2160p|uhd)\\b",
-      "imageURL": "https://raw.githubusercontent.com/djgenesis/stream/refs/heads/main/badges/uhd.png",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/4k.png",
       "tagColor": "#33000000",
-      "borderColor": "#FFAAAAAA"
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-1080p",
+      "groupId": "resolution",
+      "name": "1080p Full HD",
+      "pattern": "(?i)\\b(1080p|1080i|fhd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/1080p.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-720p",
+      "groupId": "resolution",
+      "name": "720p HD",
+      "pattern": "(?i)\\b(720p|hd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/720p.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-hdr",
+      "groupId": "hdr",
+      "name": "HDR",
+      "pattern": "(?i)\\b(hdr10\\+?|hdr|hlg)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/hdr.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-dolby-vision",
+      "groupId": "dolby-vision",
+      "name": "Dolby Vision",
+      "pattern": "(?i)\\b(dolby[\\s._-]?vision|dv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/dolby-vision.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-dolby-atmos",
+      "groupId": "audio-format",
+      "name": "Dolby Atmos",
+      "pattern": "(?i)\\b(dolby[\\s._-]?atmos|atmos)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/dolby-atmos.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-audio-51",
+      "groupId": "audio-channels",
+      "name": "5.1 Audio",
+      "pattern": "(?i)\\b(5[ .]?1|5ch)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/audio-51.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-multi-audio",
+      "groupId": "multi-audio",
+      "name": "Multi Audio",
+      "pattern": "(?i)\\b(multi[\\s._-]?audio|dual[\\s._-]?audio)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/multi-audio.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-hindi",
+      "groupId": "language",
+      "name": "Hindi",
+      "pattern": "(?i)\\b(hindi|hin)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/hindi.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-blu-ray",
+      "groupId": "source",
+      "name": "Blu-ray Disc",
+      "pattern": "(?i)\\b(blu[\\s._-]?ray|bdrip|bdremux)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/blu-ray.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-netflix",
+      "groupId": "streaming",
+      "name": "Netflix",
+      "pattern": "(?i)\\bnetflix\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/netflix.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-prime-video",
+      "groupId": "streaming",
+      "name": "Prime Video",
+      "pattern": "(?i)\\b(prime[\\s._-]?video|amazon[\\s._-]?prime)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/prime-video.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-disney-hotstar",
+      "groupId": "streaming",
+      "name": "Disney+ Hotstar",
+      "pattern": "(?i)\\b(disney\\+?[\\s._-]?hotstar|hotstar)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/disney-hotstar.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-sony-liv",
+      "groupId": "streaming",
+      "name": "Sony LIV",
+      "pattern": "(?i)\\b(sony[\\s._-]?liv|sonyliv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/sony-liv.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-zee5",
+      "groupId": "streaming",
+      "name": "ZEE5",
+      "pattern": "(?i)\\bzee5\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/zee5.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-jiohotstar",
+      "groupId": "streaming",
+      "name": "JioHotstar",
+      "pattern": "(?i)\\bjio[\\s._-]?hotstar\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/jiohotstar.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-apple-tv",
+      "groupId": "streaming",
+      "name": "Apple TV",
+      "pattern": "(?i)\\b(apple[\\s._-]?tv|appletv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/apple-tv.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
+    },
+    {
+      "id": "custom-hbo-max",
+      "groupId": "streaming",
+      "name": "HBO Max",
+      "pattern": "(?i)\\b(hbo[\\s._-]?max|max)\\b",
+      "imageURL": "https://raw.githubusercontent.com/gafoorN10/nuvio-fusion-badges/main/hbo-max.png",
+      "tagColor": "#33000000",
+      "borderColor": "#FF7777FF"
     }
   ]
 }
