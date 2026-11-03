@@ -1,108 +1,13 @@
 {
-  "groups": [
-    {
-      "id": "g-res",
-      "name": "Resolution",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "g-src",
-      "name": "Source",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "g-rng",
-      "name": "Dynamic Range",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "g-depth",
-      "name": "Color Depth",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "g-snd",
-      "name": "Sound Formats",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "id": "g-ch",
-      "name": "Audio Channels",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    },
-    {
-      "borderColor": "#FF858283",
-      "color": "#000000",
-      "id": "gs",
-      "isExpanded": false,
-      "name": "Streaming"
-    },
-    {
-      "borderColor": "#FF858283",
-      "color": "#000000",
-      "id": "ge",
-      "isExpanded": false,
-      "name": "Encoder"
-    },
-    {
-      "id": "language",
-      "name": "Language",
-      "color": "#00000000",
-      "borderColor": "#00000000",
-      "isExpanded": true
-    }
-  ],
   "filters": [
     {
       "id": "uhd",
-      "groupId": "g-res",
+      "groupId": "resolution",
       "name": "4K",
-      "isEnabled": true,
+      "pattern": "(?i)\\b(4k|2160p|uhd)\\b",
       "imageURL": "https://raw.githubusercontent.com/djgenesis/stream/refs/heads/main/badges/uhd.png",
-      "pattern": "(?i)\\b(?:4k|2160[pi]?|uhd(?:tv)?|ultra[\\s._-]?hd|3840\\s*x\\s*2160|4096\\s*x\\s*2160)\\b",
-      "textColor": "#00000000",
-      "tagColor": "#00000000",
-      "borderColor": "#00000000",
-      "tagStyle": "filled",
-      "type": "filter"
-    },
-    {
-      "id": "fhd",
-      "groupId": "g-res",
-      "name": "1080p",
-      "isEnabled": true,
-      "imageURL": "https://raw.githubusercontent.com/djgenesis/stream/refs/heads/main/badges/uhd.png",
-      "pattern": "(?i)\\b(?:1080[pi]?|1920\\s*x\\s*1080|fhd)\\b",
-"textColor": "#00000000",
-"tagColor": "#00000000",
-"borderColor": "#00000000",
-"tagStyle": "filled",
-"type": "filter"
-    },
-    {
-  "id": "hd",
-  "groupId": "g-res",
-  "name": "720p",
-  "isEnabled": true,
-  "imageURL": "https://raw.githubusercontent.com/djgenesis/stream/refs/heads/main/badges/uhd.png",
-  "pattern": "(?i)\\b(?:720p|1280\\s*x\\s*720)\\b",
-  "textColor": "#00000000",
-  "tagColor": "#00000000",
-  "borderColor": "#00000000",
-  "tagStyle": "filled",
-  "type": "filter"
+      "tagColor": "#33000000",
+      "borderColor": "#FFAAAAAA"
     }
-]
+  ]
 }
